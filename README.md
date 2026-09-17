@@ -1,22 +1,35 @@
 <!-- HEADER ANIMATION -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2E67F8&center=true&vcenter=true&width=500&lines=Hi+%F0%9F%90%8B%2C+I'm+%5BDaniel lesiamon%5D;Full-Stack+Software+Engineer;Building+scalable+web+solutions;Welcome+to+my+GitHub!;" alt="Typing SVG" />
+<<div align="center">
+  <h1>Your Name</h1>
+  <p><b>Senior Full-Stack Engineer | Systems Architect</b></p>
+  
+  <!-- Dynamic Status Badge -->
+  <img src="https://img.shields.io/badge/Status-Building%20scalable%20microservices-000000?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-TypeScript%20%2F%20Go%20%2F%20Kubernetes-00599C?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  
+  <br /><br />
+  
+  <a href="https://yourportfolio.com">Website</a> •
+  <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> •
+  <a href="https://blog.yourdomain.com">Technical Blog</a> •
+  <a href="mailto:your.email@example.com">Contact</a>
 </div>
-
-<p align="center">
-  <a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" /></a>
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
 
 ---
 
-### ⚡ About Me
+### 💻 Engineering Overview
 
-```yaml
-developer:
-  name: Daniel Lesiamon
-  role: Full-Stack Engineer
-  current_focus: Building distributed systems & cloud-native apps
-  tech_stack: [JavaScript, TypeScript, Python, React, Node.js]
-  location: [Nairobi / kajiado]
+```typescript
+interface DeveloperProfile {
+  name: string;
+  coreStack: string[];
+  architectureFocus: string[];
+  status: "Open for Senior Engineering Roles" | "Building Products";
+}
+
+const profile: DeveloperProfile = {
+  name: "Your Name",
+  coreStack: ["TypeScript", "Node.js", "Go", "PostgreSQL", "Docker"],
+  architectureFocus: ["Distributed Systems", "Event-Driven Pipelines", "Cloud Native"],
+  status: "Building Products"
+};
