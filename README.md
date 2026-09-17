@@ -15,8 +15,8 @@
 
 ```yaml
 developer:
-  name: [Your Name]
+  name: Daniel Lesiamon
   role: Full-Stack Engineer
   current_focus: Building distributed systems & cloud-native apps
   tech_stack: [JavaScript, TypeScript, Python, React, Node.js]
-  location: [Your Location]
+  location: [Nairobi / kajiado]
