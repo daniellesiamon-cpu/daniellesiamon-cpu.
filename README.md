@@ -1,7 +1,7 @@
-# Hi there, I'm [Your Name] 👋
+# Hi there, I'm [daniellesiamon] 👋
 
 <p align="center">
-  <b>[Your Title, e.g., Full-Stack Software Engineer]</b> based in [Your Location]
+  <b>[im a, Full-Stack Software Engineer]</b> based in    Nairobi / kajiado]
   <br />
   Passionate about building scalable web applications, open-source software, and clean code.
 </p>
